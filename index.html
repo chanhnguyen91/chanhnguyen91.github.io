@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tộc Nguyễn Văn - Trà Long</title>
+    <meta
+      name="description"
+      content="Ứng dụng nội bộ của dòng họ Nguyễn Văn - Trà Long: gia phả, lịch giỗ, bảng tin và tra xưng hô."
+    />
+    <style>
+      :root {
+        --canvas: #f0f2f5;
+        --surface: #fff;
+        --text: #1c1e21;
+        --muted: #65676b;
+        --border: #e4e6eb;
+        --primary: #9e1b1b;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --canvas: #121416;
+          --surface: #1e2124;
+          --text: #e4e6eb;
+          --muted: #b0b3b8;
+          --border: #3a3b3c;
+          --primary: #e5766f;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 40px 16px 64px;
+        background: var(--canvas);
+        color: var(--text);
+        font:
+          17px/1.6 -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          sans-serif;
+      }
+      main {
+        max-width: 680px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 30px;
+        margin: 0 0 6px;
+      }
+      .sub {
+        color: var(--muted);
+        margin: 0 0 32px;
+      }
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 22px 24px;
+        margin-bottom: 16px;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 0 0 10px;
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 6px;
+      }
+      a {
+        color: var(--primary);
+      }
+      footer {
+        color: var(--muted);
+        font-size: 14px;
+        text-align: center;
+        margin-top: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Tộc Nguyễn Văn - Trà Long</h1>
+      <p class="sub">Ứng dụng nội bộ của con cháu trong dòng họ.</p>
+
+      <div class="card">
+        <h2>Ứng dụng này để làm gì</h2>
+        <ul>
+          <li>Tra cứu gia phả các Phái, Chi, Hộ trong dòng họ</li>
+          <li>Xem lịch giỗ và các sự kiện của dòng tộc</li>
+          <li>Đọc thông báo và tin tức nội bộ</li>
+          <li>Tra cách xưng hô giữa hai người trong họ</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Ai dùng được</h2>
+        <p style="margin: 0">
+          Chỉ con cháu trong dòng họ. Sau khi đăng nhập, bạn gửi đơn xin gia nhập và Ban Bảo Tộc xác
+          nhận bạn thuộc Phái, Chi nào. Trước khi được duyệt, tài khoản không xem được nội dung nào
+          của dòng họ.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Liên hệ</h2>
+        <p style="margin: 0">
+          <a href="mailto:nguyenvanchanh91@gmail.com">nguyenvanchanh91@gmail.com</a>
+        </p>
+      </div>
+
+      <footer>
+        <a href="./privacy.html">Chính sách quyền riêng tư</a>
+      </footer>
+    </main>
+  </body>
+</html>
